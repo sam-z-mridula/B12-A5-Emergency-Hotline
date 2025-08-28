@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BD Emergency Service</title>
 
     <!-- CSS file -->
@@ -23,45 +23,87 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-</head>
-<body class="madurai">
-    <nav class="border-b flex justify-between py-3 px-8">
-        <div class="flex items-center gap-2">
-            <img class="w-10" src="./assets/logo.png" alt="">
-            <div>
-                <p class="poppins text-[#006747] font-extrabold text-lg">Emergency</p>
-                <p class="poppins text-[#006747] font-extrabold text-lg -mt-2">Service</p>
-            </div>
+  </head>
+  <body class="madurai bg-[#F5FFF6] h-[100vh]">
+    <nav class="border-b flex justify-between py-3 px-8 bg-white">
+      <div class="flex items-center gap-2">
+        <img class="w-10" src="./assets/logo.png" alt="" />
+        <div>
+          <p class="poppins text-[#006747] font-extrabold text-lg">Emergency</p>
+          <p class="poppins text-[#006747] font-extrabold text-lg -mt-2">
+            Service
+          </p>
         </div>
-        <div class="flex items-center gap-3">
-            <div class="flex items-center gap-3 bg-[#41ff6b1a] px-5 py-2 rounded-full">
-                <p><span class="font-extrabold text-sm">0</span></p>
-                <img class="w-5" src="./assets/heart.png" alt="">
-            </div>
-            <div class="flex items-center gap-3 bg-[#41ff6b1a] px-5 py-2 rounded-full">
-                <p><span class="font-extrabold text-sm">100</span></p>
-                <img class="w-5" src="./assets/coin.png" alt="">
-            </div>
-            <div class="gap-3 bg-[#00A63E] px-5 py-2 rounded-full">
-                <p class="text-white text-sm"><span>0</span> Copy</p>
-            </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <div
+          class="flex items-center gap-3 bg-[#41ff6b1a] px-5 py-2 rounded-full"
+        >
+          <p><span class="font-extrabold text-sm">0</span></p>
+          <img class="w-5" src="./assets/heart.png" alt="" />
         </div>
+        <div
+          class="flex items-center gap-3 bg-[#41ff6b1a] px-5 py-2 rounded-full"
+        >
+          <p><span class="font-extrabold text-sm">100</span></p>
+          <img class="w-5" src="./assets/coin.png" alt="" />
+        </div>
+        <div class="gap-3 bg-[#00A63E] px-5 py-2 rounded-full">
+          <p class="text-white text-sm"><span>0</span> Copy</p>
+        </div>
+      </div>
     </nav>
 
     <!-- Header Section -->
-    <header class="bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] text-white text-center py-4">
-        <img class="w-18 mx-auto" src="./assets/logo-dark.png" alt="">
-        <h1 class="text-3xl font-semibold py-2">Emergency Service Directory</h1>
-        <p>Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
+    <header
+      class="bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] text-white text-center py-4"
+    >
+      <img class="w-18 mx-auto" src="./assets/logo-dark.png" alt="" />
+      <h1 class="text-3xl font-semibold py-2">Emergency Service Directory</h1>
+      <p>
+        Government Emergency Services at Your Fingertip - A Project by
+        Government of the People's Republic of Bangladesh
+      </p>
     </header>
 
     <!-- Main Section -->
-    <main>
-        <!-- Card Section -->
-        <section></section>
-        <!-- History Section -->
-        <section></section>
+    <main class="mt-10 mx-12">
+      <!-- Card Section -->
+      <section class="">
+        <div class="bg-white inline-block p-5 rounded-lg shadow-sm">
+          <div class="flex justify-between items-center">
+            <img
+              class="w-10 bg-red-100 p-[8px] rounded-xl"
+              src="./assets/emergency.png"
+              alt=""
+            />
+            <i class="text-[#5c5c5c] fa-regular fa-heart"></i>
+          </div>
+          <h3 class="font-bold text-lg mt-3">National Emergency Number</h3>
+          <p class="text-[#5c5c5c] text-sm">National Emergency</p>
+          <h1 class="font-bold text-2xl mt-4">999</h1>
+          <p
+            class="bg-[#f2f2f2] inline-block px-3 py-1 rounded-full text-sm text-[#5c5c5c]"
+          >
+            All
+          </p>
+          <div class="mt-5">
+            <button class="btn text-[#5c5c5c] font-normal bg-white w-35 h-8 rounded-lg">
+              <img class="w-4" src="./assets/copy.png" alt="" />
+              Copy
+            </button>
+            <button class="btn font-normal bg-[#00A63E] text-white w-35 h-8 rounded-lg -py-[15px]">
+              <img
+                class="w-3 text-white"
+                src="./assets/Vector.png"
+                alt=""
+              />Call
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- History Section -->
+      <section></section>
     </main>
-</body>
+  </body>
 </html>
