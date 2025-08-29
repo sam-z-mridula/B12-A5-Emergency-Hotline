@@ -1,4 +1,4 @@
-## Answer to Question 1: 
+# Answer to Question 1: 
 The difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll is given below:
 
 1. `getElementById`: `getElementById` is used to find an element by its unique id.
@@ -7,12 +7,12 @@ The difference between getElementById, getElementsByClassName, and querySelector
 4. `querySelectorAll`: This one is used to get all the elements that match the given CSS selector.
 
 
-## Answer to Question 2: 
+# Answer to Question 2: 
 The way to create and insert a new element into the DOM is given below: To create and insert a new element into the DOM, `.createElement()` and `.appendChild()` play the main roles.
 
 1. To create a new element, `document.createElement("tag name")` is used.
 2. Then, we use `document.body.appendChild(new element)` to insert the newly created element into the DOM. 
-# Here is an example: 
+## Here is an example: 
 ```JavaScript
 const newElement = document.createElement("div"); /* New element is created, which is a div */ 
 
@@ -20,10 +20,10 @@ document.body.appendChild(newElement); /* The newly created div is inserted into
 ```
 
 
-## Answer to Question 3: 
-# Event Bubbling and the way it works: 
+# Answer to Question 3: 
+## Event Bubbling and the way it works: 
 Event bubbling is a mechanism where, if an event (such as a click) occurs on any element, it is first triggered on that specific element and runs its event handler. Then it propagates upwards through its ancestor elements in the DOM hierarchy. 
-# Here is a simple example: 
+### Here is a simple example: 
 ```HTML
 <section>
     <div>
@@ -37,10 +37,10 @@ If the button is clicked, the event bubbling will work like:
 3. Finally, the event bubbles up to the sector, and its handler runs.
 
 
-## Answer to Question 4: 
+# Answer to Question 4: 
 Event delegation is a method where, instead of adding listeners to many child elements, only a single event listener is added to a common parent element, and using event bubbling downwards, the parent catches events from its children elements. 
 
-# Here are some reasons why event delegation is very useful:
+## Here are some reasons why event delegation is very useful:
 1. Fewer listeners are used; consequently, less memory usage and better performance
 2. If new elements are added to the DOM later, it still works on them without adding any more listeners.
 3. Fewer codes are written, which makes the code more organized and manageable.
